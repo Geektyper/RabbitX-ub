@@ -259,7 +259,7 @@ async def help(_, m):
         botun = (await BOT.get_me()).username
     if not await verify(m.from_user.id):
         return
-    ok = await m.reply(" 🌟 ")
+    ok = await m.reply(" Getting Help Menu")
     try:
         nice = await _.get_inline_bot_results(bot=botun, query="inline_help")
     except Exception as e:

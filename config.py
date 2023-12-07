@@ -14,15 +14,6 @@ class API:
 class TOKENS:
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     STRING_SESSION = os.getenv("STRING_SESSION", "")
-    STRING_SESSION_2 = os.getenv("STRING_SESSION_2", "")
-    STRING_SESSION_3 = os.getenv("STRING_SESSION_3", "")
-    STRING_SESSION_4 = os.getenv("STRING_SESSION_4", "")
-    STRING_SESSION_5 = os.getenv("STRING_SESSION_5", "")
-    STRING_SESSION_6 = os.getenv("STRING_SESSION_6", "")
-    STRING_SESSION_7 = os.getenv("STRING_SESSION_7", "")
-    STRING_SESSION_8 = os.getenv("STRING_SESSION_8", "")
-    STRING_SESSION_9 = os.getenv("STRING_SESSION_9", "")
-    STRING_SESSION_10 = os.getenv("STRING_SESSION_10", "")
 
 class config:
     MONGO_DATABASE = os.getenv("MONGO_DATABASE","")

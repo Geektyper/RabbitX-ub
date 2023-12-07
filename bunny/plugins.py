@@ -160,6 +160,9 @@ CARBON_HELP = f"""
 5) {hl}demote <reply to a user> Demotes a user
 6) {hl}admins Check the kist of admins
 7) {hl}pin/{hl}unpin pin/unpin any msg or image
+8) {hl}zombies removes all the deleted account from group
+9) {hl}bots gets the list of all the bots in group
+
 **© @Notrealgeek**
 """
 

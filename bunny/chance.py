@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 import random
 from . import hl
-from client import bunny as Client
 
 
 @Client.on_message(filters.command("chance",  hl) & filters.me)

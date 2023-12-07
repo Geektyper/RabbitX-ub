@@ -2,6 +2,7 @@ from pyrogram import filters , Client
 from pyrogram.types import *
 import requests
 from . import hl
+from client import bunny as Client 
 
 
 @Client.on_message(filters.me & filters.command("write",hl))

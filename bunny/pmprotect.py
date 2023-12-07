@@ -5,10 +5,10 @@ from bunny.utils.verify import verify
 from bunny.utils.get_id import get_id
 from bunny.utils.capsify import capsify
 from bunny.Database.pm import *
-from .watchers import pm_watcher
 from config import STUFF
 
 RABBIT = STUFF.HELP_PIC
+pm_watcher = [5]
 
 TEXT = capsify("""Hey {} 👋, This is the PM Security of {} 👮!
 

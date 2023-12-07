@@ -34,7 +34,7 @@ Get it from Telegram any string bot
 ###Credits for the Project
 * [Keshav](https://github.com/ShutupKeshav)
 
-*[Geektyper](https://GitHub.com/Geektyper)
+* [Geektyper](https://GitHub.com/Geektyper)
 
 ###  License
 [**GNU General Public License v3.0**](https://github.com/Geektyper/RabbitX-ub/License)

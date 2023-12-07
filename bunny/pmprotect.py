@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from . import eor, hl, verify, add_command, get_id, capsify
+from bunny.utils.basic import eor, hl, verify, get_id, capsify
 from bunny.Database.pm import *
 from .watchers import pm_watcher
 from config import STUFF

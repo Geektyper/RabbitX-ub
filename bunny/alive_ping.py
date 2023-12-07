@@ -4,7 +4,7 @@ from config import STUFF, DEV
 from .verify import verify
 from pyrogram import Client, filters
 
-PIC = STUFF.ALIVE_PIC if STUFF.ALIVE_PIC else "https://telegra.ph/file/31f1906a790ec93ace4e2.jpg"
+PIC = STUFF.ALIVE_PIC if STUFF.ALIVE_PIC else "https://telegra.ph//file/3bc88e0963c045d0219e2.jpg"
 
 OWNER = DEV.OWNER_ID
 

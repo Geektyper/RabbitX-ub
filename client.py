@@ -8,3 +8,5 @@ else:
 
 if TOKENS.STRING_SESSION:
     bunny = Client(":bunny", api_id=API.API_ID, api_hash=API.API_HASH, session_string=TOKENS.STRING_SESSION)
+else:
+    bunny = none

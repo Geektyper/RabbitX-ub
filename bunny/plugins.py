@@ -251,7 +251,7 @@ HELP_MARKUP = IKM(
              IKB(" Admin ", callback_data="carbon"),
               IKB(" Fun", callback_data="trans"),
               IKB(" Extra ", callback_data="extra"),
-              ]
+              ],
               [
              IKB(" CLOSE ",
 callback_data="close")

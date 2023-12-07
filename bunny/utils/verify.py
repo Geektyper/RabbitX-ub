@@ -1,4 +1,4 @@
-from bunny.database.sudo import is_sudo
+from bunny.Database.sudo import is_sudo
 
 async def verify(_, m):
     x = m.from_user.is_self

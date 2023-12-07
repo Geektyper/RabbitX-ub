@@ -9,7 +9,7 @@ from client import BOT
 hl = STUFF.COMMAND_HANDLER
 from .verify import verify
 
-SPARE = "https://telegra.ph/file/31f1906a790ec93ace4e2.jpg"
+SPARE = "https://telegra.ph/file/c0badd009915184bd43da.jpg"
 
 START_PIC = STUFF.START_PIC if STUFF.START_PIC else SPARE
 

@@ -5,7 +5,7 @@
     "repository": "https://github.com/Geektyper/RabbitX-ub",
   "stack": "container",
     "env": {
-        "STRING_SESSION1": {
+        "STRING_SESSION": {
             "description": "fill with the Pyrogram session string ",
             "required": true
         },

@@ -32,7 +32,7 @@
 Get it from Telegram any string bot
 
 ###Credits for the Project
-* [SPL-SPAM](https://github.com/code-rgb/USERGE-X)
+* [Keshav](https://github.com/ShutupKeshav)
 
 ###  License
 [**GNU General Public License v3.0**](https://github.com/Geektyper/RabbitX-ub/License)

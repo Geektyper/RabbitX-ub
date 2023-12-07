@@ -1,8 +1,6 @@
 <p align="center">
 <a href="https://t.me/RabbitxUserbot"><img src="https://telegra.ph//file/2eaa580b342a1b81342fe.jpg" width="400" height="400"/>
 </p>
-<p align="center"> src="https://img.shields.io/badge/FNIXDEV-BIO-red.svg?style=for-the-badge&logo=appveyor"></a>
-</p>
 <p align="center">
 <a href="https://t.me/rabbitxuserbot"><img src="https://img.shields.io/badge/Join-Telegram%20Group-red.svg?style=flat-square&logo=Telegram"></a>
 

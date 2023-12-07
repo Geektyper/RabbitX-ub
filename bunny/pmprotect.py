@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from bunny.helpers.basic import eor
 from . import hl
-from .verify import verify
+from bunny.utils.verify import verify
 from bunny.utils.get_id import get_id
 from bunny.utils.capsify import capsify
 from bunny.Database.pm import *

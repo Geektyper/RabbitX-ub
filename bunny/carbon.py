@@ -5,7 +5,6 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import Message, User
 from . import hl
 from bunny.helpers.basic import eor
-from client import bunny as Client
 
 aiosession = ClientSession()
 

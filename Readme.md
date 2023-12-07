@@ -35,4 +35,4 @@ Get it from Telegram any string bot
 * [SPL-SPAM](https://github.com/code-rgb/USERGE-X)
 
 ###  License
-[**GNU General Public License v3.0**](https://github.com/Geektyper/RabbitX-ub/License
+[**GNU General Public License v3.0**](https://github.com/Geektyper/RabbitX-ub/License)

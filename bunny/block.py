@@ -2,7 +2,6 @@ from bunny.helpers.basic import edit_or_reply
 from bunny.utils.misc import extract_user
 from pyrogram import Client, filters
 from . import hl
-from client import bunny as Client
 from pyrogram.types import Message
 
 @Client.on_message(filters.command(["block"], hl) & filters.me)

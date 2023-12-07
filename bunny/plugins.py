@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as 
 from config import DEV, STUFF
 import time
 from .data import RabbitX 
-from external_client import BOT
+from client import BOT
 from pyrogram import Client, filters
 from external_client import BOT
 

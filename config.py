@@ -8,8 +8,8 @@ load_dotenv()
 PMPERMIT = getenv("PMPERMIT","ENABLE")
 
 class API:
-    API_ID = int(os.getenv("API_ID", ""))
-    API_HASH = os.getenv("API_HASH", "")
+    API_ID = int(os.getenv("API_ID", "21455847"))
+    API_HASH = os.getenv("API_HASH", "8362067b5445fd55efd6b70d78f97fbd")
 
 class TOKENS:
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")

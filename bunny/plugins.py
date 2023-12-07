@@ -20,12 +20,12 @@ LEGENDS = DEV.SUDO_USERS + [DEV.OWNER_ID] + RabbitX
 START_MARKUP_STR = IKM(
                [
                [
-               IKB(" Master ", url="t.me/fuck_uff_xd"),
-               IKB(" Support ", url="t.me/DevsX_Community"),
-               ]
-               [
-               IKB(" Repo ", url="https://github.com/Geektyper/RabbitX-ub"),
+               IKB("Devlopers", url="t.me/RabbitXUserbot"),
+               IKB(" Support ", url="RabbitXUserbot.t.me")
                ],
+               [
+               IKB(" Repo ", url="https://github.com/Geektyper/RabbitX-ub")
+               ]
                ]
                )
 

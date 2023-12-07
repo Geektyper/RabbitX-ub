@@ -180,6 +180,7 @@ Command :
 3) {hl}utweet <name> <text> Creates a tweet from a given name
 4) {hl}trump <text> Creates a tweet of Donald Trump
 5) {hl}write <text> Writes the given text on a paper
+6) {hl}webss <link> takes a screenshot of given website 
 
 
 
@@ -247,6 +248,10 @@ HELP_MARKUP = IKM(
              IKB(" Admin ", callback_data="carbon"),
               IKB(" Fun", callback_data="trans"),
               IKB(" Extra ", callback_data="extra"),
+              ]
+              [
+             IMB(" CLOSE ",
+callback_data="close")
               ]
               ]
               )

@@ -50,7 +50,7 @@ async def start(_, m):
     if str(m.chat.id)[0] == "-":
         return
     men = m.from_user.mention
-    txt = f"**Hello !! {men}\nNice To Meet You, Well I Am {bot_name}, A Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Given Below.** \n\n**Powered By : [𝙍𝘼𝘽𝘽𝙄𝙏𝙓](https://t.me/fuck_uff_xd)**"
+    txt = f"**Hello !! {men}\nNice To Meet You, Well I Am {bot_name}, A Powerfull UserBot.** \n\n**If You Want Your Own  UserBots You Can Deploy From Button Given Below.** \n\n**Powered By : [𝙍𝘼𝘽𝘽𝙄𝙏𝙓](https://t.me/fuck_uff_xd)**"
     await m.reply_photo(START_PIC, caption=txt, reply_markup=START_MARKUP_STR)
     return
 

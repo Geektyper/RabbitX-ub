@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 
 hl = STUFF.COMMAND_HANDLER
 
-LEGENDS = DEV.SUDO_USERS + [DEV.OWNER_ID] + KeshavX
+LEGENDS = DEV.SUDO_USERS + [DEV.OWNER_ID] + RabbitX 
 
 @Client.on_message(filters.command("addecho", hl))
 async def addecho(_, m):

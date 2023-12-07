@@ -1,7 +1,7 @@
 from pyrogram import filters , Client
 from pyrogram.types import *
 import requests
-import . import hl
+from . import hl
 
 
 @Client.on_message(filters.me & filters.command("write",hl))

@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 import requests
 import os
-from client import bunny as Client
 from . import  hl
 
 @Client.on_message(filters.command("webss", hl) & filters.me)

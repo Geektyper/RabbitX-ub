@@ -250,7 +250,7 @@ HELP_MARKUP = IKM(
               IKB(" Extra ", callback_data="extra"),
               ]
               [
-             IMB(" CLOSE ",
+             IKB(" CLOSE ",
 callback_data="close")
               ]
               ]

@@ -1,4 +1,4 @@
 from .pastebin import *
-from .sections import *
+from .section import *
 from .tools import *
 from .misc import *

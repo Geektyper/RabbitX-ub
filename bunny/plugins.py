@@ -244,7 +244,6 @@ HELP_MARKUP = IKM(
               ],
               [
               IKB(" Pm gaurd ", callback_data="pm"),
-              IKB(" Join ", callback_data="afk"),
               IKB(" Sangmata ", callback_data="sang"),
               ],
               [

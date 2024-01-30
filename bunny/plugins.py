@@ -20,8 +20,8 @@ LEGENDS = DEV.SUDO_USERS + [DEV.OWNER_ID] + RabbitX
 START_MARKUP_STR = IKM(
                [
                [
-               IKB("Devlopers", url="t.me/RabbitXUserbot"),
-               IKB(" Support ", url="RabbitXUserbot.t.me")
+               IKB("Devlopers", url="t.me/Notrealgeek"),
+               IKB(" Support ", url="Notrealgeek.t.me")
                ],
                [
                IKB(" Repo ", url="https://github.com/Geektyper/RabbitX-ub")
@@ -239,7 +239,7 @@ HELP_MARKUP = IKM(
               ],
               [
               IKB(" Clone ", callback_data="clone"),
-              IKB(" Purge ", callback_data="purge"),
+              IKB(" Join ", callback_data="purge"),
               IKB(" Echo ", callback_data="echo"),
               ],
               [

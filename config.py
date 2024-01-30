@@ -12,7 +12,7 @@ class API:
     API_HASH = os.getenv("API_HASH", "8362067b5445fd55efd6b70d78f97fbd")
 
 class TOKENS:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6963593429:AAHV9tJ7Kbe1r99Q2iPaqXfT9lGy0WXLtrA")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6104008287:AAGFF2R6ytOT5yZLd6UZjPF-WaMzw8Iic2Q")
     STRING_SESSION = os.getenv("STRING_SESSION", "BAGqvsEAbvm1EFPX2jmPWdG6Qc556BX86Tt2rgrpKDRdnMxoubgzaB3BTLZzmhiQLm9tglDJagpVpfHQb2RNUe3ODjzecqFVedWO0axreSSZa_kCdWCPQiLlliJAorwoSH7U8BvcPGwtozkb2JoDv4M8xP8Ky2YpS7iUyxODNE3E1jPPBvtIq8vTrvhL1j1DOKHrXwXc6tTi3-uOtg1S3GIK9uUh3NzIuAwVE1-p74cjXCVcBHq_XDPVExJ_dxwKQ4CkO_UHrm4l74P3_Vs7_8HmdxsGUw8cz6OAJ_fR-vGnJAlnVp38Ukyf03SPOFh-8UxAGY9mXKZm0ve51b5gOLAZgBM_mQAAAAGfUN2IAA")
 
 class config:
@@ -21,7 +21,7 @@ class DATABASE:
     MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://Alisha:Alisha123@cluster0.yqcpftw.mongodb.net/?retryWrites=true&w=majority")
 
 class DEV:
-    OWNER_ID = int(os.getenv("OWNER_ID", "6967844232"))
+    OWNER_ID = int(os.getenv("OWNER_ID", "6708316457"))
 
     # DONT EDIT THIS 
     SUDO_USERS = [] 

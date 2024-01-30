@@ -6,14 +6,19 @@ import traceback
 from inspect import getfullargspec
 from io import StringIO
 from time import time
-from bunny.decorators import owner
 from pyrogram import Client, filters
-from pyrogram.types import (InlineKeyboardButton,
-                            InlineKeyboardMarkup, Message)
+from pyrogram.types import (InlineKeyboardButton,InlineKeyboardMarkup, Message)
 from bunny.utils.capsify import capsify
 from bunny.helpers.basic import eor
 from bunny import app2 as app
 from config import STUFF
+
+def owner(func):
+    async def wrapper(_, m):
+        if m.from_user.is_self:
+            return await func(_, m)
+        return
+    return wrapper
 
 hl = STUFF.COMMAND_HANDLER
 
